@@ -88,7 +88,6 @@ ThemeData _buildShrineTheme() {
       error: kShrineErrorRed,
     ),
     textTheme: _buildShrineTextTheme(base.textTheme),
-    primaryTextTheme: _buildShrineTextTheme(base.primaryTextTheme),
     textSelectionTheme: const TextSelectionThemeData(
       selectionColor: kShrinePink100,
     ),
