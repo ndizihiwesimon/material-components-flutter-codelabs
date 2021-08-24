@@ -104,7 +104,9 @@ TextTheme _buildShrineTextTheme(TextTheme base) {
         headline5: base.headline5!.copyWith(
           fontWeight: FontWeight.w500,
         ),
-        headline6: base.headline6!.copyWith(fontSize: 18.0),
+        headline6: base.headline6!.copyWith(
+          fontSize: 18.0,
+        ),
         caption: base.caption!.copyWith(
           fontWeight: FontWeight.w400,
           fontSize: 14.0,
