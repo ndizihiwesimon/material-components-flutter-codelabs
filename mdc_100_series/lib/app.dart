@@ -87,9 +87,6 @@ ThemeData _buildShrineTheme() {
       secondary: kShrineBrown900,
       error: kShrineErrorRed,
     ),
-    appBarTheme: base.appBarTheme.copyWith(
-      backwardsCompatibility: false,
-    ),
     textTheme: _buildShrineTextTheme(base.textTheme),
     primaryTextTheme: _buildShrineTextTheme(base.primaryTextTheme),
     textSelectionTheme: const TextSelectionThemeData(
@@ -98,7 +95,6 @@ ThemeData _buildShrineTheme() {
     inputDecorationTheme: const InputDecorationTheme(
       border: CutCornersBorder(),
     ),
-    accentTextTheme: _buildShrineTextTheme(base.accentTextTheme),
     iconTheme: _customIconTheme(base.iconTheme),
   );
 }
