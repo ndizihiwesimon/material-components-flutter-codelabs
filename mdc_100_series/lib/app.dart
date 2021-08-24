@@ -74,10 +74,6 @@ Route<dynamic>? _getRoute(RouteSettings settings) {
 
 final ThemeData _kShrineTheme = _buildShrineTheme();
 
-IconThemeData _customIconTheme(IconThemeData original) {
-  return original.copyWith(color: kShrineBrown900);
-}
-
 ThemeData _buildShrineTheme() {
   final ThemeData base = ThemeData.light();
   return base.copyWith(
@@ -100,7 +96,6 @@ ThemeData _buildShrineTheme() {
       ),
       border: CutCornersBorder(),
     ),
-    iconTheme: _customIconTheme(base.iconTheme),
   );
 }
 
