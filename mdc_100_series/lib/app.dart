@@ -62,9 +62,6 @@ ThemeData _buildShrineTheme() {
       secondary: kShrineBrown900,
       error: kShrineErrorRed,
     ),
-    appBarTheme: base.appBarTheme.copyWith(
-      backwardsCompatibility: false,
-    ),
     textTheme: _buildShrineTextTheme(base.textTheme),
     primaryTextTheme: _buildShrineTextTheme(base.primaryTextTheme),
     textSelectionTheme: const TextSelectionThemeData(
